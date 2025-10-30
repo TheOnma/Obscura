@@ -1,0 +1,14 @@
+[workspace]
+members = [
+  "programs/obscura-analytics",
+]
+
+[provider]
+cluster = "Devnet"
+wallet = "~/.config/solana/id.json"
+
+[programs.devnet]
+obscura_analytics = "8Vtv238LWYGpHGmtvRGWm43bfNmpEowvMthYEuciq3L4"
+
+[scripts]
+deploy = "bash scripts/deploy.sh"

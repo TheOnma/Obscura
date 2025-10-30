@@ -1,0 +1,16 @@
+[package]
+name = "obscura-analytics"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "obscura_analytics"
+crate-type = ["cdylib", "lib"]
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+
+[dependencies]
+anchor-lang = "0.32.1"

@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "programs/obscura-analytics",
+]
+
+[profile.release]
+opt-level = "s"
+overflow-checks = true

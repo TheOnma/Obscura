@@ -1,0 +1,47 @@
+# Ignore node/npm package artifacts
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Expo generated files
+.expo/
+.expo-shared/
+
+# Build directories
+dist/
+.build/
+web-build/
+android/
+ios/
+*.dbg
+
+# Directories for IDEs/editors
+.idea/
+.vscode/
+.history/
+*.sublime-workspace
+*.sublime-project
+
+# Misc environments
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*
+
+# Mac system files
+.DS_Store
+
+# Artifacts created by bundlers
+*.log
+*.lock
+package-lock.json
+yarn.lock
+
+# Metro and Jest
+coverage/
+jest/
+jest-html-reporters-*
