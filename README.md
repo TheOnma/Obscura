@@ -1,4 +1,4 @@
-# Obscura Live — Hackathon MVP
+# Obscura Live
 
 See the chain. Stay unseen.
 
